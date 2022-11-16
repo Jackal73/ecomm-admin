@@ -9,10 +9,10 @@ export default function WidgetLg() {
       <h3 className="widgetLgTitle">Latest transactions</h3>
       <table className="widgetLgTable">
         <tr className="widgetLgTr">
-          <th className="widgetLgth">Customer</th>
-          <th className="widgetLgth">Date</th>
-          <th className="widgetLgth">Amount</th>
-          <th className="widgetLgth">Status</th>
+          <th className="widgetLgTh">Customer</th>
+          <th className="widgetLgTh">Date</th>
+          <th className="widgetLgTh">Amount</th>
+          <th className="widgetLgTh">Status</th>
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
