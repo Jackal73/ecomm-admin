@@ -7,6 +7,7 @@ import User from "./pages/user/User";
 
 import "./app.css";
 import NewUser from "./pages/newUser/NewUser";
+import ProductList from "./pages/productList/ProductList";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path="/newUser">
             <NewUser />
+          </Route>
+          <Route path="/products">
+            <ProductList />
           </Route>
         </Switch>
       </div>
