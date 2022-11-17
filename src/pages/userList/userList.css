@@ -1,10 +1,15 @@
 .userList {
   flex: 4;
+  padding: 20px;
 }
 
 .userListUser {
   display: flex;
   align-items: center;
+}
+
+.dGrid {
+  margin-top: 20px;
 }
 
 .userListImg {
